@@ -23,7 +23,7 @@ async def spotify(ctx):
         split = myline.partition(":")
        
         embed=discord.Embed(title="Spotify Account", color=0xf45eff)
-        embed.set_thumbnail(url="https://pre00.deviantart.net/3d13/th/pre/i/2016/343/0/7/free_minecraft_logo_template_by_curtzeninja-dar2dou.png")
+        embed.set_thumbnail(url="https://images.complex.com/complex/images/c_limit,w_680/fl_lossy,pg_1,q_auto/ko5zhcsynomwhiqqykbr/spotify-headphones")
         embed.add_field(name="Email:", value=split[0], inline=False)
         embed.add_field(name="Password:", value=split[2], inline=False)
         await bot.send_message(ctx.message.author, embed=embed)
