@@ -32,4 +32,4 @@ async def spotify(ctx):
 
         client = discord.Client()
 
-bot.run("NDcyMzQyOTIzMzU5NDIwNDE2.DjyKYQ.LEjJawHeE6c2cAw6UKPCGG8BSic")
+bot.run("NDcyMzQyOTIzMzU5NDIwNDE2.Dj3LhA.Psy5URk_eLiJzz5qsrmp-N5KncA")
