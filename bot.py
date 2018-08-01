@@ -6,7 +6,7 @@ import random
 
 Client = discord.Client()
 bot = commands.Bot(command_prefix="$")
-lines = open(r'accounts.txt').read().splitlines()
+lines = open(r'spotify.txt').read().splitlines()
 
 @bot.event
 async def on_ready():
