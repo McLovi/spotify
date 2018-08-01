@@ -31,5 +31,5 @@ async def spotify(ctx):
 
     print("{} Typed !gen".format(userName))
 
-bot.run("NDcyMzQyOTIzMzU5NDIwNDE2.DkLqCg.hZ3XrkM3CVDi2gNwVEBOXsjMQp8")
+bot.run("NDI0OTk0MjkxMDQ0MTg4MTYw.DkMeCg.wDhXj_2pE5u7BoVgWCsF6l4FUws")
 
