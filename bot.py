@@ -21,6 +21,7 @@ async def spotify(ctx):
     userID = ctx.message.author.id
 
         
+    if ctx.message.server:
     myline = random.choice(lines)
     split = myline.partition(":")
     
@@ -32,5 +33,7 @@ async def spotify(ctx):
 
     print("{} Typed !gen".format(userName))
 
+         client = discord.Client()
+    
 bot.run("NDc0NjUwOTg0MTM2ODM1MDk0.DkT8Ww.jhQZ9AMWO6GEfi3Q4V6XRAbGu-E")
 
