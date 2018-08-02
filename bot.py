@@ -20,7 +20,6 @@ async def spotify(ctx):
     userName = ctx.message.author.name
     userID = ctx.message.author.id
 
-    if ctx.message.server:
         
     myline = random.choice(lines)
     split = myline.partition(":")
