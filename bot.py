@@ -23,13 +23,13 @@ async def spotify(ctx):
     myline = random.choice(lines)
     split = myline.partition(":")
     
-    embed=discord.Embed(title="Minecraft Account", color=0xf45eff)
+    embed=discord.Embed(title="Spotify Account", color=0xf45eff)
     embed.set_thumbnail(url="https://pre00.deviantart.net/3d13/th/pre/i/2016/343/0/7/free_minecraft_logo_template_by_curtzeninja-dar2dou.png")
-    embed.add_field(name="Email:", value=split[0], inline=False)
+    embed.add_field(name="UserName:", value=split[0], inline=False)
     embed.add_field(name="Password:", value=split[2], inline=False)
     await bot.send_message(ctx.message.author, embed=embed)
 
     print("{} Typed !gen".format(userName))
 
-bot.run("NDc0NjUxNzQ0NTIyMjA3MjQ1.DkT31A.Lzlrm0fBvvShkJbeCbssFyHoF98")
+bot.run("NDc0NjUwOTg0MTM2ODM1MDk0.DkT8Ww.jhQZ9AMWO6GEfi3Q4V6XRAbGu-E")
 
