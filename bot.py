@@ -12,7 +12,7 @@ lines = open(r'spotify.txt').read().splitlines()
 async def on_ready():
     print("The bot is online!")
 
-@commands.cooldown(1, 30, commands.BucketType.user)
+@commands.cooldown(1, 15, commands.BucketType.user)
 @bot.command(pass_context=True)
 async def spotify(ctx):
     userName = ctx.message.author.name
@@ -31,5 +31,5 @@ async def spotify(ctx):
 
     print("{} Typed !gen".format(userName))
 
-bot.run("NDI0OTk0MjkxMDQ0MTg4MTYw.DkMeCg.wDhXj_2pE5u7BoVgWCsF6l4FUws")
+bot.run("NDc0NjUxNzQ0NTIyMjA3MjQ1.DkT31A.Lzlrm0fBvvShkJbeCbssFyHoF98")
 
